@@ -11,6 +11,7 @@ import edit from '../components/list/edit.vue'
 
 var router = new Router({
   routes: [
+    { path: '/', redirect: '/herolist' },
     { name:'herolist', path: '/herolist', component: herolist },
     { name:'tool', path: '/tool', component: tool },
     { name:'coat', path: '/coat', component: coat },
